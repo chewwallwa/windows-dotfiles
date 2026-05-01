@@ -5,6 +5,8 @@ p.s.: I use Neovim, if you don't use it, do not remove MS Notepad, and don't mak
 If you want another font beside Iosevka, download and install its .tff normally.
 **Download Iosevka**: Get the latest releases from [be5invis/Iosevka](https://github.com/be5invis/Iosevka/releases).
 
+For windows 11, but may be applicable for Win10.
+
 ## (Opitional) Debloating 
 
 ### 1. Chris Titus Tech Windows Utility
@@ -52,16 +54,14 @@ winget install -e --id Qalculate.Qalculate
 winget install -e --id jurplel.qView
 winget install -e --id SumatraPDF.SumatraPDF
 winget install -e --id Librewolf.Librewolf
-winget install -e --id Git.Git
-winget install -e --id Python.Python.3.12
 ```
+
+And download VLC.
 
 
 ## 📂 Dotfiles & Configuration
 
 Copy the configuration files to these specific paths to achieve the look.
-
-
 
 ### GlazeWM
 
@@ -72,12 +72,13 @@ Copy the configuration files to these specific paths to achieve the look.
 
 * **Path**: `C:\Users\[USER]\AppData\Local\nvim`
 * **Note**: Keep your `init.lua` here. Remember to run `pip install pynvim` for Python support.
+There are another posts where I show my nvim mods on reddit: [nvim feature](https://www.reddit.com/r/neovim/comments/1r518sg/comment/o9fn15l/?context=3) and [rice](https://www.reddit.com/r/LinuxPorn/comments/1r8duka/neovim_my_modified_gruvbox_neovim/).
+The dots for linux are on [chewwallwa/dotfiles](https://github.com/chewwallwa/dotfiles) and were adapted for windows here (under test).
 
 ### Windows Terminal
 
-* (Or change manually)
+* You can config manually on `Ctrl + ,` > Defaults > Appearance or substitute this file by my dot:
 * **Path**: `C:\Users\[USER]\AppData\Local\Packages\Microsoft.WindowsTerminal_[SOMETHING]\LocalState\settings.json`
-* **Note**: Apply your Iosevka Nerd Font and Acrylic transparency settings here. 
 
 ---
 
