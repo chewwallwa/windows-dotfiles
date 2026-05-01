@@ -68,7 +68,11 @@ Copy the configuration files to these specific paths to achieve the look.
 * **Path**: `C:\Users\[USER]\.glzr\glazewm`
 * **Note**: This is where your `config.yaml` lives. Set up your gaps and keybindings here.
 
-### Neovim (opitional)
+### ExplorerPatcher
+
+Just Import it
+
+### Neovim
 
 * **Path**: `C:\Users\[USER]\AppData\Local\nvim`
 * **Note**: Keep your `init.lua` here. Remember to run `pip install pynvim` for Python support.
