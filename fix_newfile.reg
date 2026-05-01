@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; --- MARKDOWN FILES (.md) ---
+[HKEY_CLASSES_ROOT\.md]
+@="NvimMarkdown"
+"Content Type"="text/markdown"
+"PerceivedType"="text"
+
+[HKEY_CLASSES_ROOT\.md\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\NvimMarkdown]
+@="Markdown File"
+
+[HKEY_CLASSES_ROOT\NvimMarkdown\shell\open\command]
+@="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\" \"%1\""
+
+; --- EXTENSIONLESS FILES (.) ---
+[HKEY_CLASSES_ROOT\.]
+@="NvimEmpty"
+
+[HKEY_CLASSES_ROOT\.\ShellNew]
+"NullFile"=""
+"ItemName"="Empty File"
+
+[HKEY_CLASSES_ROOT\NvimEmpty]
+@="Empty File"
+
+[HKEY_CLASSES_ROOT\NvimEmpty\shell\open\command]
+@="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\" \"%1\""
