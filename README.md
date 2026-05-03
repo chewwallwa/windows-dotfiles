@@ -1,10 +1,20 @@
 # The best windows is the less windowy windows 
 
+- [Preview](https://github.com/chewwallwa/windows-dotfiles/edit/main/README.md#preview)
+- [Dofiles and Settings](https://github.com/chewwallwa/windows-dotfiles/edit/main/README.md#-dotfiles--configuration)
+- [Debloating](https://github.com/chewwallwa/windows-dotfiles/edit/main/README.md#opitional-debloating)
+- [Substitute apps for MS apps](https://github.com/chewwallwa/windows-dotfiles/edit/main/README.md#apps-to-substitue-ms-apps)
+
 I use Neovim, if you don't use it, do not remove MS Notepad, and don't follow the tutorial for nvim.
 
 Made for windows 11, but may be applicable for Win10.
 
-**Please note: Some files have a path like C:/Users/[USER], remeber to put your username.**
+***Please note: Some files have a path like C:/Users/[USER], remeber to put your username.***
+
+## Preview
+
+<img width="2688" height="1366" alt="image" src="https://github.com/user-attachments/assets/9994c6ef-b1d2-4547-8c2b-8efbe4465849" />
+<img width="1912" height="1073" alt="image" src="https://github.com/user-attachments/assets/316ad26a-9c21-408c-830b-5d4f82378c5f" />
 
 ---
 
@@ -59,6 +69,10 @@ create a folder `C:Users/[USER]/.config/` and put my fastfetch folder on it.
 There are another posts where I show my nvim mods on reddit: [nvim feature](https://www.reddit.com/r/neovim/comments/1r518sg/comment/o9fn15l/?context=3) and [rice](https://www.reddit.com/r/LinuxPorn/comments/1r8duka/neovim_my_modified_gruvbox_neovim/).
 The dots for linux are on [chewwallwa/dotfiles](https://github.com/chewwallwa/dotfiles) and were adapted for windows here (under test).
 
+### MS PowerToys
+
+I'm also using it for a RoFi like menu on `alt+Space`. And more. I think you can download it by yourself if you want.
+
 ---
 
 ## (Opitional) Debloating 
@@ -94,6 +108,7 @@ Replace bloated Windows defaults with lightweight, "Linux" alternatives using `w
 | **Image Viewer** | qView | Minimalist (no UI), ultra-fast, keyboard-driven. |
 | **PDF Reader** | SumatraPDF | The "Zathura" of Windows. Config-file based. |
 | **Browser** | Librewolf | Hardened Firefox for privacy. |
+| **Terminal File Explorer** | Yazi | Ultra fast. |
 
 
 ### Installation Command
@@ -106,6 +121,5 @@ winget install -e --id Qalculate.Qalculate
 winget install -e --id jurplel.qView
 winget install -e --id SumatraPDF.SumatraPDF
 winget install -e --id Librewolf.Librewolf
+winget install -e --id sxyazi.yazi
 ```
-
-And download VLC.
