@@ -54,9 +54,9 @@ Copy the configuration files to these specific paths to achieve the look.
 
 ### Fastfetch
 
-`winget install fastfetch`
-edit the `$PROFILE` file, pasting my file on it (`nvim $PROFILE` for nvim, use your editor).
-create a folder `C:Users/[USER]/.config/` and put my fastfetch folder on it.
+- `winget install fastfetch`
+- Edit the `$PROFILE` file (`nvim $PROFILE` for nvim, use your editor), and paste the content of my file (`PowerShell_profile.ps1`) on it.
+- Put my `fastfetch` folder on this path `C:Users/[USER]/.config/` (you have to create the `.config/`).
 
 ### Neovim (Opitional)
 
